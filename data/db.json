@@ -2,7 +2,8 @@
     "players": [
         {
             "id": 1,
-            "charactersId": []
+            "name": "Alex",
+            "charactersId": [1]
         }
     ],
     "characters": [
