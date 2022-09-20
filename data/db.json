@@ -229,21 +229,45 @@
                 }
             ],
             "specialSkills": [
+                {
+                    "id": 1,
+                    "name": "Sarbacane",
+                    "stat": 40
+                }
 
             ],
             "talents": [
+                {
+                    "id": 1,
+                    "name": "Milieu Naturel (Forêt Tropicale)",
+                    "description": "Avantage à jet de survie dans une forêt tropicale"
+                }
 
             ],
             "flaws": [
+                {
+                    "id": 1,
+                    "name": "Arachnophobe",
+                    "description": "Doit faire un jet de FM pour ne pas paniquer en présence d'une araignée"
+                }
 
             ],
             "equipment": {
                 "weapons": [
+                    {
+                        "id": 1,
+                        "name": "Sarbacane",
+                        "description": "Arme de trait, à utiliser avec des munitions. Tire à 10/20m",
+                        "damage": "0",
+                        "attributes": [
+                            "Silencieux"
+                        ]
+                    }
                 ],
                 "wearables": {
                     "hat": {
-                        "name": "",
-                        "description": ""
+                        "name": "Coiffe d'Artisan",
+                        "description": "Coiffe typique des artisans"
                     },
                     "shirt": {
                         "name": "",
@@ -254,16 +278,16 @@
                         "description": ""
                     },
                     "pants": {
-                        "name": "",
-                        "description": ""
+                        "name": "Pati",
+                        "description": "Pagne classique"
                     },
                     "boots": {
-                        "name": "",
-                        "description": ""
+                        "name": "Sandalles",
+                        "description": "Sandales classiques, pour ne pas avoir mal aux pieds"
                     },
                     "bolt": {
-                        "name": "",
-                        "description": ""
+                        "name": "Ceinture à outils",
+                        "description": "Pratique pour transporter ses outils d'artisan"
                     }
                 },
                 "possessions": [
@@ -272,7 +296,14 @@
                         "description": ""
                     }
                 ]
-            }
+            },
+            "munitions": [
+                {
+                    "name": "Munitions de Sarbacane",
+                    "description": "Petite flèche pointue, inutile si non empoisonnée",
+                    "quantity": 10
+                }
+            ]
         }
     ]
 }
