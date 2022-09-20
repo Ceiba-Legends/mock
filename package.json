@@ -1,0 +1,18 @@
+{
+  "name": "mayans-mock",
+  "version": "0.0.1",
+  "description": "Mock pour les données de Mayans",
+  "main": "index.js",
+  "scripts": {
+    "start" : "json-server --port 8000 --watch --no-cors ./data/data.json",
+    "test": "test"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "Alexandre Devos",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

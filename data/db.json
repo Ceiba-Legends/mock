@@ -1,0 +1,51 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "charactersId": []
+        }
+    ],
+    "characters": [
+        {
+            "firstName": "Brugnolf",
+            "lastName": "",
+            "stats": [
+                {
+                    "id": "CHA",
+                    "name": "Charisme",
+                    "value": 40
+                },
+                {
+                    "id": "FOR",
+                    "name": "Force",
+                    "value": 40
+                },
+                {
+                    "id": "INS",
+                    "name": "Instinct",
+                    "value": 40
+                },
+                {
+                    "id": "INT",
+                    "name": "Intelligence",
+                    "value": 40
+                },
+                {
+                    "id": "MOB",
+                    "name": "Mobilité",
+                    "value": 40
+                },
+                {
+                    "id": "VIG",
+                    "name": "Vigueur",
+                    "value": 40
+                },
+                {
+                    "id": "VOL",
+                    "name": "Volonté",
+                    "value": 40
+                }
+            ]
+        }
+    ]
+}
