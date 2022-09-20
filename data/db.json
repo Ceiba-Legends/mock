@@ -9,6 +9,12 @@
         {
             "firstName": "Brugnolf",
             "lastName": "",
+            "combativity": {
+                "max": 13,
+                "temp": 0,
+                "actual": 13
+            },
+            "wounds": [],
             "stats": [
                 {
                     "id": "CHA",
@@ -45,7 +51,228 @@
                     "name": "Volonté",
                     "value": 40
                 }
-            ]
+            ],
+            "skills": [
+                {
+                    "id": "ACROB",
+                    "name": "Acrobatie",
+                    "value": 40,
+                    "stat": "MOB + INS"
+                },
+                {
+                    "id": "ADIST",
+                    "name": "Armes Dist.",
+                    "value": 40,
+                    "stat": "MOB + INS"
+                },
+                {
+                    "id": "ABLEG",
+                    "name": "Armes Bl. légères",
+                    "value": 40,
+                    "stat": "MOB + INS"
+                },
+                {
+                    "id": "ABLOU",
+                    "name": "Armes Bl. Lourdes",
+                    "value": 40,
+                    "stat": "FOR + MOB"
+                },
+                {
+                    "id": "ARTIS",
+                    "name": "Artisanat",
+                    "value": 40,
+                    "stat": "MOB + INT"
+                },
+                {
+                    "id": "COMMA",
+                    "name": "Commandement",
+                    "value": 40,
+                    "stat": "CHAR + INS"
+                },
+                {
+                    "id": "CROCH",
+                    "name": "Crochetage",
+                    "value": 40,
+                    "stat": "MOB + INT"
+                },
+                {
+                    "id": "DEGUI",
+                    "name": "Déguisement",
+                    "value": 40,
+                    "stat": "CHAR + INT"
+                },
+                {
+                    "id": "DISCR",
+                    "name": "Discrétion",
+                    "value": 40,
+                    "stat": "MOB + INS"
+                },
+                {
+                    "id": "EDUCA",
+                    "name": "Education",
+                    "value": 40,
+                    "stat": "INTEL + CHAR"
+                },
+                {
+                    "id": "ENDUR",
+                    "name": "Endurance",
+                    "value": 40,
+                    "stat": "VIG + VOL"
+                },
+                {
+                    "id": "ESCAL",
+                    "name": "Escalade",
+                    "value": 40,
+                    "stat": "FOR + MOB"
+                },
+                {
+                    "id": "ESCAM",
+                    "name": "Escamotage",
+                    "value": 40,
+                    "stat": "MOB + INS"
+                },
+                {
+                    "id": "EVALU",
+                    "name": "Evaluation",
+                    "value": 40,
+                    "stat": "INT + INS"
+                },
+                {
+                    "id": "INTIM",
+                    "name": "Intimidation",
+                    "value": 40,
+                    "stat": "FOR + CHAR"
+                },
+                {
+                    "id": "JEU",
+                    "name": "Jeu",
+                    "value": 40,
+                    "stat": "INS + CHAR"
+                },
+                {
+                    "id": "NATAT",
+                    "name": "Natation",
+                    "value": 40,
+                    "stat": "MOB + FOR"
+                },
+                {
+                    "id": "NAVIG",
+                    "name": "Navigation",
+                    "value": 40,
+                    "stat": "INS + INT"
+                },
+                {
+                    "id": "ORIEN",
+                    "name": "Orientation",
+                    "value": 40,
+                    "stat": "INT + INS"
+                },
+                {
+                    "id": "PERCE",
+                    "name": "Perception",
+                    "value": 40,
+                    "stat": "INT + INS"
+                },
+                {
+                    "id": "PERSP",
+                    "name": "Perspicacité",
+                    "value": 40,
+                    "stat": "INT + INS"
+                },
+                {
+                    "id": "PISTA",
+                    "name": "Pistage",
+                    "value": 40,
+                    "stat": "INT + INS"
+                },
+                {
+                    "id": "PUGIL",
+                    "name": "Pugilat",
+                    "value": 40,
+                    "stat": "FOR + VIG"
+                },
+                {
+                    "id": "RECHE",
+                    "name": "Recherches",
+                    "value": 40,
+                    "stat": "INT + VOL"
+                },
+                {
+                    "id": "RESAL",
+                    "name": "Résist. à l'alcool",
+                    "value": 40,
+                    "stat": "VIG + FOR"
+                },
+                {
+                    "id": "RHETO",
+                    "name": "Rhétorique",
+                    "value": 40,
+                    "stat": "CHAR + INT"
+                },
+                {
+                    "id": "SEDUC",
+                    "name": "Séduction",
+                    "value": 40,
+                    "stat": "CHAR + INS"
+                },
+                {
+                    "id": "SOINS",
+                    "name": "Soins",
+                    "value": 40,
+                    "stat": "INT + MOB"
+                },
+                {
+                    "id": "SURVI",
+                    "name": "Survie",
+                    "value": 40,
+                    "stat": "INT + INS"
+                }
+            ],
+            "specialSkills": [
+
+            ],
+            "talents": [
+
+            ],
+            "flaws": [
+
+            ],
+            "equipment": {
+                "weapons": [
+                ],
+                "wearables": {
+                    "hat": {
+                        "name": "",
+                        "description": ""
+                    },
+                    "shirt": {
+                        "name": "",
+                        "description": ""
+                    },
+                    "vest": {
+                        "name": "",
+                        "description": ""
+                    },
+                    "pants": {
+                        "name": "",
+                        "description": ""
+                    },
+                    "boots": {
+                        "name": "",
+                        "description": ""
+                    },
+                    "bolt": {
+                        "name": "",
+                        "description": ""
+                    }
+                },
+                "possessions": [
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
         }
     ]
 }
