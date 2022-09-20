@@ -4,7 +4,7 @@
   "description": "Mock pour les données de Mayans",
   "main": "index.js",
   "scripts": {
-    "start" : "json-server --port 8000 --watch --no-cors ./data/data.json",
+    "start" : "json-server --port 8000 --watch --no-cors ./data/db.json",
     "test": "test"
   },
   "keywords": [
